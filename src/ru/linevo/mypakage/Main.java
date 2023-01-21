@@ -6,9 +6,9 @@ public class Main {
 
 
         B b = new B();
-        b.no = 2;
-        b.pro = 2;
-        b.pub = 2;
+        b.no = 5;
+        b.pro = 5;
+        b.pub = 5;
 
         System.out.println(a.no);
     }
