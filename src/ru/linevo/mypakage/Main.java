@@ -6,7 +6,7 @@ public class Main {
 
 
         B b = new B();
-        b.no = 5;
+        b.no = 3;
         b.pro = 5;
         b.pub = 5;
 
