@@ -1,4 +1,4 @@
-package ru.linevo.mypakage;
+package ru.linevo.num;
 
 public class Main {
     enum Direction {
@@ -22,16 +22,10 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        String a = Direction.NORTH.getShortCode();
-        System.out.println(a);
-
-        System.out.println(Direction.valueOf("NORTH"));
-
-        System.out.println(Direction.NORTH.name());
-
-        System.out.println(Direction.NORTH.toString());
-
-
-
+        System.out.println(Direction.NORTH.getShortCode());// TEST
+        System.out.println(Direction.valueOf("NORTH")); //NORTH
+        System.out.println(Direction.NORTH.name()); //NORTH
+        System.out.println(Direction.NORTH); //NORTH
+        System.out.println(Direction.EAST.getShortCode()); //E
     }
 }
