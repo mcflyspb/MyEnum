@@ -14,10 +14,12 @@ public class Main {
         private final String shortCode;
 
         Direction(String code) {
+
             this.shortCode = code;
         }
 
         public String getShortCode() {
+
             return this.shortCode;
         }
     }
